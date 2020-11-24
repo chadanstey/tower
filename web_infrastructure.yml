@@ -35,7 +35,7 @@
       name: firewalld
       enabled: true
       state: started
-
+      
   - name: firewalld permits http service
     firewalld:
       service: http
